@@ -1,0 +1,72 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  adding layer */
+
+.primary{
+  color:#00ffc9
+}  
+.bg-primary{
+  background-color:#00ffc9
+}
+.hexagon {
+  width: 200px;
+  height: 116px;
+  /* background-color: #00ffc9; */
+  background-image: linear-gradient(#00ffc9, #00ffc9);
+  margin: 100px auto;
+  position: relative;
+  opacity: 1;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 58px solid #00ffc9;
+} 
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 58px solid #00ffc9;
+}
+.small-hexagon {
+  width: 50px;
+  height: 25px;
+  background-color: #00ffc9;
+  position: relative;
+  opacity: .8;
+
+}
+.small-hexagon:before,
+.small-hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+.small-hexagon:before {
+  width: 0;
+  bottom: 100%;
+  border-bottom: 12.5px solid #00ffc9;
+}
+.small-hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 12.5px solid #00ffc9;
+}
+.me{
+  height: inherit;
+  width: inherit;
+}
