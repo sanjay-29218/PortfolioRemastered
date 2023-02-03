@@ -10,7 +10,7 @@ const index = () => {
         <div className=" p-10 gap-4 grid grid-cols-2 grid-rows-1">
           <div>
             <div className="py-10">
-              Hello <span className="primary">I'm </span>
+              Hello <span className="primary">I&apos;m </span>
             </div>
             <div className="text-4xl font-bold font-mono primary">
               SANJAY POUDEL
@@ -21,8 +21,8 @@ const index = () => {
               Quibusdam voluptates amet ipsum quis doloribus itaque id velit,
               quae eaque voluptatibus adipisci eveniet quasi quia quidem!
             </div>
-            <div className="mt-24 cursor-pointer rounded-md text-2xl bg-primary p-4 items-center inline-block text-white font-bold">
-              Let's Talk
+            <div className="mt-24 cursor-pointer rounded-md text-2xl bg-primary p-4 items-center inline-block text-black font-bold">
+              Let&apos;s Talk
             </div>
             <div className="py-9 flex gap-4 items-center ">
               <span className=" " >Check Out my :</span>

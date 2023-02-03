@@ -37,20 +37,25 @@ const projects = (props: Props) => {
             projectTitle="Daraz Clone"
             projectImg="https://www.poudelsanjay.com.np/darazclone.png"
             projectDesc="lorem lorem lorem"
+            ishobby={false}
           />
 
           <ProjectBox
             projectTitle="LinkedIn Clone"
             projectImg="https://www.poudelsanjay.com.np/linkedin.png"
             projectDesc="lorem lorem lorem"
+            ishobby={false}
+
           />
           <ProjectBox
             projectTitle="Spotify Clone"
             projectImg="https://www.poudelsanjay.com.np/spotify.png"
             projectDesc="lorem lorem lorem"
+            ishobby={false}
+
           />
           <ProjectBox
-            projectTitle="Music Recommendation using emotion recognition"
+            projectTitle="Music Recommendation "
             projectImg="https://www.poudelsanjay.com.np/musicrecommender.png"
             projectDesc="lorem lorem lorem"
           />
