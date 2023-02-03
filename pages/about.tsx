@@ -18,7 +18,7 @@ const AboutScreen = () => {
   return (
     <Layout>
       <div className="text-white">
-        <h1>
+        <h1 className="pb-4">
           About<span className="primary text-2xl ml-1">Me</span>
         </h1>
         <div className="grid grid-cols-[60%,400px] grid-rows-1">
@@ -55,10 +55,17 @@ const AboutScreen = () => {
           </div>
         </div>
         <h1 className="text-2xl text- slate-200 flex items-center justify-center gap-3 font-extrabold  ">
-          My Hobbies
+        My Hobbies
         </h1>
         <div className="text-white p-12 ">
         <Slider  {...settings} className="pl-16">
+          <ProjectBox
+            projectTitle="Coding"
+            projectImg="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/chris-ried-ieic5Tq8YMk-unsplas_1200x768.jpeg?size=690:388"
+            projectDesc="I have always been passionate about cricket since childhood."
+            ishobby={true}
+
+          />
           <ProjectBox
             projectTitle="Cricket"
             projectImg="https://static6.depositphotos.com/1157310/657/v/950/depositphotos_6576571-stock-illustration-illustration-of-cricketer.jpg"
